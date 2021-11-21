@@ -8,7 +8,7 @@ let staticDir = path.join(__dirname, '../../dist/static/');
 export default function createServer() {
   const app: Application = express();
   app.get('/', (req: Request, res: Response, next: NextFunction) => {
-    res.sendFile(staticDir + "index.html");
+    app.use(express.static(staticDir));
   });
 
   return app;
