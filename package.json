@@ -1,0 +1,24 @@
+{
+  "name": "phaser3-ts-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=env nodemon -r tsconfig-paths/register src/app.ts"
+  },
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.9",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0"
+  }
+}
