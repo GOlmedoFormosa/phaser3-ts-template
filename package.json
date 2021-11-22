@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=env nodemon -r tsconfig-paths/register src/app.ts",
-    "bundle": "NODE_ENV=env webpack"
+    "build": "NODE_ENV=env webpack"
   },
   "dependencies": {
     "dotenv-safe": "^8.2.0",
