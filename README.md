@@ -20,8 +20,7 @@ After cloning the repo, run `yarn install` from your project directory. Then, yo
 server by running `yarn dev`. The first time you run this you should see the following demo run:
 
 After starting the development server with `yarn run build`, you can edit any files in the `src` folder
-and Rollup will automatically recompile and reload your server (available at `http://localhost:8080`
-by default).
+and Webpack will automatically recompile and reload your assets.
 
 ## Configuring Rollup
 
