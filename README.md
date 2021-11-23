@@ -8,18 +8,18 @@ This quick-start project template combines Phaser 3.50 with [TypeScript 4](https
 
 ## Available Commands
 
-| Command         | Description                                                             |
-| --------------- | ----------------------------------------------------------------------- |
-| `yarn install`  | Install project dependencies                                            |
-| `npm run build` | Build project and open web server running project, watching for changes |
-| `npm dev`       | Builds project and open web server, but do not watch for changes        |
+| Command        | Description                                                             |
+| -------------- | ----------------------------------------------------------------------- |
+| `yarn install` | Install project dependencies                                            |
+| `npm build`    | Build project and open web server running project, watching for changes |
+| `npm dev`      | Builds project and open web server, but do not watch for changes        |
 
 ## Writing Code
 
 After cloning the repo, run `yarn install` from your project directory. Then, you can start the local development
 server by running `yarn dev`. The first time you run this you should see the following demo run:
 
-After starting the development server with `yarn run build`, you can edit any files in the `src` folder
+After starting the development server with `yarn build`, you can edit any files in the `src` folder
 and Webpack will automatically recompile and reload your assets.
 
 ## Configuring Rollup
