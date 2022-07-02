@@ -11,8 +11,8 @@ This quick-start project template combines Phaser 3.50 with [TypeScript 4](https
 | Command        | Description                                                             |
 | -------------- | ----------------------------------------------------------------------- |
 | `yarn install` | Install project dependencies                                            |
-| `npm build`    | Build project and open web server running project, watching for changes |
-| `npm dev`      | Builds project and open web server, but do not watch for changes        |
+| `yarn build`    | Build project and open web server running project, watching for changes |
+| `yarn dev`      | Builds project and open web server, but do not watch for changes        |
 
 ## Writing Code
 
